@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SMB3 Spade House Minigame</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <audio id="loop" src="static/songloop.mp3" loop></audio>
+    <audio id="spin" src="static/spin.wav" loop></audio>
+    <audio id="win" src="static/win.mp3"></audio>
+    <audio id="lose" src="static/lose.wav"></audio>
+    <audio id="select" src="static/select.mp3"></audio>
+    <audio id="stop" src="static/stop.wav"></audio>
+
+    <div id="container">
+        <div class="reel-wrapper">
+        <div class="reel" id="top-row">
+            <img src="static/star.jpg">
+            <img src="static/mushroom.jpg">
+            <img src="static/flower.jpg">
+            <img src="static/star.jpg">
+            <img src="static/mushroom.jpg">
+            <img src="static/flower.jpg">
+        </div>
+        </div>
+        <div class="reel-wrapper">
+        <div class="reel" id="middle-row">
+            <img src="static/star.jpg">
+            <img src="static/mushroom.jpg">
+            <img src="static/flower.jpg">
+            <img src="static/star.jpg">
+            <img src="static/mushroom.jpg">
+            <img src="static/flower.jpg">
+        </div>
+        </div>
+        <div class="reel-wrapper">
+        <div class="reel" id="bottom-row">
+            <img src="static/star.jpg">
+            <img src="static/mushroom.jpg">
+            <img src="static/flower.jpg">
+            <img src="static/star.jpg">
+            <img src="static/mushroom.jpg">
+            <img src="static/flower.jpg">
+        </div>
+        </div>
+    </div>
+    <img src="static/status.jpg" id="bar">
+</body>
+</html>
