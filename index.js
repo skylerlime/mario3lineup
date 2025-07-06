@@ -1,7 +1,7 @@
-const IMAGE_WIDTH = 428;
+const IMAGE_WIDTH = 578; // 428px image + 150px gap
 const NUM_UNIQUE_IMAGES = 3;
 const LOOP_WIDTH = IMAGE_WIDTH * NUM_UNIQUE_IMAGES;
-const reelOffset = (700 - 428) / 2;
+const reelOffset = (700 - 428) / 2; // center 428px image in 700px wrapper
 const positions = {};
 
 const reelRows = [

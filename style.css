@@ -28,6 +28,7 @@ body {
 .reel {
     display: flex;
     width: max-content;
+    gap: 150px;
 }
 
 .reel img {
@@ -37,6 +38,9 @@ body {
     margin: 0;
     padding: 0;
     border: none;
+}
+
+#top-row img {
     object-position: top;
 }
 
